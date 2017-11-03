@@ -28,8 +28,7 @@
      NSArray * btnDataSource2 = @[@"未付款", @"已付款", @"待发货", @"待收货"];
     
     self.segmentView = [KNSegmentView SetKNSegmentViewFrame:CGRectMake(0,40, KSCREEN_WIDTH, 44) titletData:btnDataSource2 defalutColor:[UIColor blackColor] selectColor:[UIColor greenColor] titleFont:[UIFont systemFontOfSize:14] Delegate:self];
-    
-    
+
     [self.view addSubview:self.segmentView];
     
     

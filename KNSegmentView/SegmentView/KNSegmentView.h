@@ -39,16 +39,9 @@
                              Delegate:(id)delegate;
 
 
-///背景颜色
-@property(nonatomic, strong)UIColor *bakeGroundColor;
-///默认颜色
-@property(nonatomic, strong)UIColor *defaultColor;
-///选中颜色
-@property(nonatomic, strong)UIColor *selectColor;
 ///底部线条View
 @property(nonatomic, strong)UIColor *downLienColor;
-///字体大小
-@property(nonatomic, strong)UIFont  *titleFont;
+
 ///线条厚度
 @property(nonatomic, assign)CGFloat LienHeight;
 

@@ -13,16 +13,18 @@
 
 ///宽度
 @property(nonatomic, assign)CGFloat widhtFloat;
-
 ///指示线条
 @property(nonatomic, strong)UIView *bottonDownView;
-
 ///当前下表
 @property(nonatomic, assign)NSInteger selectSeugment;
-
 ///按钮数组
 @property(nonatomic, strong)NSMutableArray *buttonSource;
-
+///默认颜色
+@property(nonatomic, strong)UIColor *defaultColor;
+///选中颜色
+@property(nonatomic, strong)UIColor *selectColor;
+///字体大小
+@property(nonatomic, strong)UIFont  *titleFont;
 
 @end
 
@@ -37,11 +39,9 @@
         self.buttonSource = [[NSMutableArray alloc]init];
         //设置默认值
         _selectSeugment = 0;
-        self.bakeGroundColor = [UIColor lightGrayColor];
-        self.backgroundColor = self.bakeGroundColor;
+        self.backgroundColor =[UIColor lightGrayColor];
         self.downLienColor = [UIColor redColor];
         self.LienHeight = 2.f;
-        
     }
     return self;
 }
@@ -113,13 +113,7 @@
 }
 
 
--(void)setBakeGroundColor:(UIColor *)bakeGroundColor
-{
-    if (_bakeGroundColor != bakeGroundColor) {
-        _bakeGroundColor = bakeGroundColor;
-        self.backgroundColor = _bakeGroundColor;
-    }
-}
+
 -(void)setDownLienColor:(UIColor *)downLienColor
 {
     if (_downLienColor != downLienColor) {
@@ -134,6 +128,7 @@
         _LienHeight  = LienHeight;
         CGRect frame =  _bottonDownView.frame;
         frame.size.height = _LienHeight;
+        frame.origin.y = self.bounds.size.height - _LienHeight;
         _bottonDownView.frame = frame;
     }
 }
