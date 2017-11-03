@@ -24,17 +24,20 @@
 //代理委托
 @property(nonatomic, strong) id<KNSegmentViewDelegate> delegate;
 
-
 /**
- 初始化方法
+ 创建的类方法
 
- @param frame 设置大小位置
- @param TitleArray 设置内容数组
- @param delegate 代理委托
+ @param frame 创建位置
+ @param TitleArray 选择标题数组
+ @param defalutColor 默认字体颜色
+ @param selectColor 选中字体颜色
+ @param font 字体Font
+ @param delegate 代理
  @return 返回自己
  */
-+(KNSegmentView *)SetKNSegmentViewFrame:(CGRect)frame titletData:(NSArray <NSString *> *)TitleArray
++(KNSegmentView *)SetKNSegmentViewFrame:(CGRect)frame titletData:(NSArray <NSString *> *)TitleArray defalutColor:(UIColor *)defalutColor selectColor:(UIColor *)selectColor titleFont:(UIFont *)font
                              Delegate:(id)delegate;
+
 
 ///背景颜色
 @property(nonatomic, strong)UIColor *bakeGroundColor;
@@ -47,6 +50,6 @@
 ///字体大小
 @property(nonatomic, strong)UIFont  *titleFont;
 ///线条厚度
-@property(nonatomic, assign)CGFloat *LienHeight;
+@property(nonatomic, assign)CGFloat LienHeight;
 
 @end
