@@ -38,6 +38,8 @@
 +(KNSegmentView *)SetKNSegmentViewFrame:(CGRect)frame titletData:(NSArray <NSString *> *)TitleArray defalutColor:(UIColor *)defalutColor selectColor:(UIColor *)selectColor titleFont:(UIFont *)font
                              Delegate:(id)delegate;
 
+//指定当前选择器的位置
+-(void)setSelectFotIndex:(NSInteger )index;
 
 ///底部线条View
 @property(nonatomic, strong)UIColor *downLienColor;

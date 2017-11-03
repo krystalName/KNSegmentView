@@ -72,6 +72,7 @@
         btn.titleLabel.font = self.titleFont;
         [btn setTitleColor:self.defaultColor forState:UIControlStateNormal];
         [btn setTitleColor:self.selectColor forState:UIControlStateSelected];
+        btn.clipsToBounds = YES;
         btn.tag = i;
         [btn addTarget:self action:@selector(ChangeBtnTag:) forControlEvents:UIControlEventTouchUpInside];
         
@@ -112,6 +113,11 @@
     }
 }
 
+
+-(void)setSelectFotIndex:(NSInteger)index
+{
+    [self selectTheSegument:index];
+}
 
 
 -(void)setDownLienColor:(UIColor *)downLienColor
