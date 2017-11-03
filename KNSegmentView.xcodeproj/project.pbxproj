@@ -13,6 +13,7 @@
 		C2C122DB1FAC102500A85EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C122DA1FAC102500A85EAB /* Assets.xcassets */; };
 		C2C122DE1FAC102500A85EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C122DC1FAC102500A85EAB /* LaunchScreen.storyboard */; };
 		C2C122E11FAC102500A85EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122E01FAC102500A85EAB /* main.m */; };
+		C2C122EA1FAC108E00A85EAB /* KNSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122E91FAC108E00A85EAB /* KNSegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C2C122DD1FAC102500A85EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C122DF1FAC102500A85EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C122E01FAC102500A85EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2C122E81FAC108E00A85EAB /* KNSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSegmentView.h; sourceTree = "<group>"; };
+		C2C122E91FAC108E00A85EAB /* KNSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSegmentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		C2C122D01FAC102500A85EAB /* KNSegmentView */ = {
 			isa = PBXGroup;
 			children = (
+				C2C122E71FAC104F00A85EAB /* SegmentView */,
 				C2C122D11FAC102500A85EAB /* AppDelegate.h */,
 				C2C122D21FAC102500A85EAB /* AppDelegate.m */,
 				C2C122D41FAC102500A85EAB /* ViewController.h */,
@@ -69,6 +73,15 @@
 				C2C122E01FAC102500A85EAB /* main.m */,
 			);
 			path = KNSegmentView;
+			sourceTree = "<group>";
+		};
+		C2C122E71FAC104F00A85EAB /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				C2C122E81FAC108E00A85EAB /* KNSegmentView.h */,
+				C2C122E91FAC108E00A85EAB /* KNSegmentView.m */,
+			);
+			path = SegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C122D61FAC102500A85EAB /* ViewController.m in Sources */,
+				C2C122EA1FAC108E00A85EAB /* KNSegmentView.m in Sources */,
 				C2C122E11FAC102500A85EAB /* main.m in Sources */,
 				C2C122D31FAC102500A85EAB /* AppDelegate.m in Sources */,
 			);
