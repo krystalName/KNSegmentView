@@ -6,6 +6,9 @@
 
 ![](https://github.com/krystalName/KNSegmentView/blob/master/SegmentView.gif)
 
+2.支持修改背景颜色
+3.支持修改选中线条的颜色
+4.支持修改默认选中项。 默认选中第一个
 
 使用代码如下
 
@@ -17,4 +20,14 @@
     self.segmentView = [KNSegmentView SetKNSegmentViewFrame:CGRectMake(0,40, KSCREEN_WIDTH, 44) titletData:btnDataSource2 defalutColor:[UIColor blackColor] selectColor:[UIColor greenColor] titleFont:[UIFont systemFontOfSize:14] Delegate:self];
     [self.view addSubview:self.segmentView];
     
+```
+代理方法如下
+
+```objc
+
+//selection 为选中的下标
+-(void)KNSegmentSelectionChange:(NSInteger)selection
+{
+    NSLog(@"现在选择的是 ---- %ld",selection);
+}
 ```
