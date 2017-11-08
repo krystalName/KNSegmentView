@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261753B3D8B8F36DF8E6F79F /* libPods-KNSegmentView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8408C8AAA7A275ED40E44788 /* libPods-KNSegmentView.a */; };
 		C2C122D31FAC102500A85EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122D21FAC102500A85EAB /* AppDelegate.m */; };
 		C2C122D61FAC102500A85EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122D51FAC102500A85EAB /* ViewController.m */; };
 		C2C122D91FAC102500A85EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C122D71FAC102500A85EAB /* Main.storyboard */; };
@@ -14,9 +15,13 @@
 		C2C122DE1FAC102500A85EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C122DC1FAC102500A85EAB /* LaunchScreen.storyboard */; };
 		C2C122E11FAC102500A85EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122E01FAC102500A85EAB /* main.m */; };
 		C2C122EA1FAC108E00A85EAB /* KNSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122E91FAC108E00A85EAB /* KNSegmentView.m */; };
+		C2E746DD1FB2A42600C3AE9A /* KNNextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E746DC1FB2A42600C3AE9A /* KNNextVC.m */; };
+		C2E746E01FB2A5C200C3AE9A /* KNOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E746DF1FB2A5C200C3AE9A /* KNOneVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8408C8AAA7A275ED40E44788 /* libPods-KNSegmentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNSegmentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E6B19F4EDA29F0C3D6D0FA /* Pods-KNSegmentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNSegmentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNSegmentView/Pods-KNSegmentView.debug.xcconfig"; sourceTree = "<group>"; };
 		C2C122CE1FAC102500A85EAB /* KNSegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNSegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C122D11FAC102500A85EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2C122D21FAC102500A85EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,11 @@
 		C2C122E01FAC102500A85EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C122E81FAC108E00A85EAB /* KNSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSegmentView.h; sourceTree = "<group>"; };
 		C2C122E91FAC108E00A85EAB /* KNSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSegmentView.m; sourceTree = "<group>"; };
+		C2E746DB1FB2A42600C3AE9A /* KNNextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNextVC.h; sourceTree = "<group>"; };
+		C2E746DC1FB2A42600C3AE9A /* KNNextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNextVC.m; sourceTree = "<group>"; };
+		C2E746DE1FB2A5C200C3AE9A /* KNOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNOneVC.h; sourceTree = "<group>"; };
+		C2E746DF1FB2A5C200C3AE9A /* KNOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNOneVC.m; sourceTree = "<group>"; };
+		C9F119F3D51D5CBFD374CDBF /* Pods-KNSegmentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNSegmentView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNSegmentView/Pods-KNSegmentView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261753B3D8B8F36DF8E6F79F /* libPods-KNSegmentView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14ACD5E7DBCDB18B97983DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8408C8AAA7A275ED40E44788 /* libPods-KNSegmentView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8892FA97BACAAA3D0052CB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87E6B19F4EDA29F0C3D6D0FA /* Pods-KNSegmentView.debug.xcconfig */,
+				C9F119F3D51D5CBFD374CDBF /* Pods-KNSegmentView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C2C122C51FAC102500A85EAB = {
 			isa = PBXGroup;
 			children = (
 				C2C122D01FAC102500A85EAB /* KNSegmentView */,
 				C2C122CF1FAC102500A85EAB /* Products */,
+				A8892FA97BACAAA3D0052CB3 /* Pods */,
+				14ACD5E7DBCDB18B97983DE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +96,10 @@
 				C2C122D21FAC102500A85EAB /* AppDelegate.m */,
 				C2C122D41FAC102500A85EAB /* ViewController.h */,
 				C2C122D51FAC102500A85EAB /* ViewController.m */,
+				C2E746DB1FB2A42600C3AE9A /* KNNextVC.h */,
+				C2E746DC1FB2A42600C3AE9A /* KNNextVC.m */,
+				C2E746DE1FB2A5C200C3AE9A /* KNOneVC.h */,
+				C2E746DF1FB2A5C200C3AE9A /* KNOneVC.m */,
 				C2C122D71FAC102500A85EAB /* Main.storyboard */,
 				C2C122DA1FAC102500A85EAB /* Assets.xcassets */,
 				C2C122DC1FAC102500A85EAB /* LaunchScreen.storyboard */,
@@ -91,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2C122E41FAC102500A85EAB /* Build configuration list for PBXNativeTarget "KNSegmentView" */;
 			buildPhases = (
+				5DB4F673786F989B9D5BDCAE /* [CP] Check Pods Manifest.lock */,
 				C2C122CA1FAC102500A85EAB /* Sources */,
 				C2C122CB1FAC102500A85EAB /* Frameworks */,
 				C2C122CC1FAC102500A85EAB /* Resources */,
+				372CC54D523D4A3E0558BEA1 /* [CP] Embed Pods Frameworks */,
+				960EC521A3468942F58D69B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,14 +187,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		372CC54D523D4A3E0558BEA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNSegmentView/Pods-KNSegmentView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB4F673786F989B9D5BDCAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		960EC521A3468942F58D69B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNSegmentView/Pods-KNSegmentView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2C122CA1FAC102500A85EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E746E01FB2A5C200C3AE9A /* KNOneVC.m in Sources */,
 				C2C122D61FAC102500A85EAB /* ViewController.m in Sources */,
 				C2C122EA1FAC108E00A85EAB /* KNSegmentView.m in Sources */,
 				C2C122E11FAC102500A85EAB /* main.m in Sources */,
+				C2E746DD1FB2A42600C3AE9A /* KNNextVC.m in Sources */,
 				C2C122D31FAC102500A85EAB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +377,7 @@
 		};
 		C2C122E51FAC102500A85EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E6B19F4EDA29F0C3D6D0FA /* Pods-KNSegmentView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +392,7 @@
 		};
 		C2C122E61FAC102500A85EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F119F3D51D5CBFD374CDBF /* Pods-KNSegmentView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
