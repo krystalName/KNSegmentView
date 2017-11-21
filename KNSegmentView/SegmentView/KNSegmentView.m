@@ -56,7 +56,6 @@
     segmentView.delegate = delegate;
     
     [segmentView AddSeguentWithArray:TitleArray];
-    
     return segmentView;
 }
 
