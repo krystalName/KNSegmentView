@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		261753B3D8B8F36DF8E6F79F /* libPods-KNSegmentView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8408C8AAA7A275ED40E44788 /* libPods-KNSegmentView.a */; };
+		C21E82221FD651B900B329FA /* KNSanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E82211FD651B900B329FA /* KNSanVC.m */; };
+		C21E82251FD651C900B329FA /* KNSiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E82241FD651C900B329FA /* KNSiVC.m */; };
 		C2C122D31FAC102500A85EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122D21FAC102500A85EAB /* AppDelegate.m */; };
 		C2C122D61FAC102500A85EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C122D51FAC102500A85EAB /* ViewController.m */; };
 		C2C122D91FAC102500A85EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C122D71FAC102500A85EAB /* Main.storyboard */; };
@@ -22,6 +24,10 @@
 /* Begin PBXFileReference section */
 		8408C8AAA7A275ED40E44788 /* libPods-KNSegmentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNSegmentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E6B19F4EDA29F0C3D6D0FA /* Pods-KNSegmentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNSegmentView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNSegmentView/Pods-KNSegmentView.debug.xcconfig"; sourceTree = "<group>"; };
+		C21E82201FD651B900B329FA /* KNSanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSanVC.h; sourceTree = "<group>"; };
+		C21E82211FD651B900B329FA /* KNSanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSanVC.m; sourceTree = "<group>"; };
+		C21E82231FD651C900B329FA /* KNSiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSiVC.h; sourceTree = "<group>"; };
+		C21E82241FD651C900B329FA /* KNSiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSiVC.m; sourceTree = "<group>"; };
 		C2C122CE1FAC102500A85EAB /* KNSegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNSegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C122D11FAC102500A85EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2C122D21FAC102500A85EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +106,10 @@
 				C2E746DC1FB2A42600C3AE9A /* KNNextVC.m */,
 				C2E746DE1FB2A5C200C3AE9A /* KNOneVC.h */,
 				C2E746DF1FB2A5C200C3AE9A /* KNOneVC.m */,
+				C21E82201FD651B900B329FA /* KNSanVC.h */,
+				C21E82211FD651B900B329FA /* KNSanVC.m */,
+				C21E82231FD651C900B329FA /* KNSiVC.h */,
+				C21E82241FD651C900B329FA /* KNSiVC.m */,
 				C2C122D71FAC102500A85EAB /* Main.storyboard */,
 				C2C122DA1FAC102500A85EAB /* Assets.xcassets */,
 				C2C122DC1FAC102500A85EAB /* LaunchScreen.storyboard */,
@@ -241,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E746E01FB2A5C200C3AE9A /* KNOneVC.m in Sources */,
+				C21E82251FD651C900B329FA /* KNSiVC.m in Sources */,
 				C2C122D61FAC102500A85EAB /* ViewController.m in Sources */,
 				C2C122EA1FAC108E00A85EAB /* KNSegmentView.m in Sources */,
+				C21E82221FD651B900B329FA /* KNSanVC.m in Sources */,
 				C2C122E11FAC102500A85EAB /* main.m in Sources */,
 				C2E746DD1FB2A42600C3AE9A /* KNNextVC.m in Sources */,
 				C2C122D31FAC102500A85EAB /* AppDelegate.m in Sources */,

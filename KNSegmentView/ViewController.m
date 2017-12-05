@@ -11,6 +11,8 @@
 #import "KNNextVC.h"
 #import "KNOneVC.h"
 #import "Masonry.h"
+#import "KNSanVC.h"
+#import "KNSiVC.h"
 
 #define KSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define KSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
@@ -105,8 +107,8 @@
     
         _pageArray = @[[[KNOneVC alloc]init],
                        [[KNNextVC alloc]init],
-                       [[KNOneVC alloc]init],
-                       [[KNNextVC alloc]init]];
+                       [[KNSanVC alloc]init],
+                       [[KNSiVC alloc]init]];
     }
     return _pageArray;
 }
